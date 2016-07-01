@@ -1,0 +1,106 @@
+* Description
+A waveform generator to sweep microwave frequencies.
+
+It is build around the Arduino Due, DAC0 is used to set the offset,  and DAC1 is used to generate the periodic waveform.
+
+A summing OP amp (AD823, supplied with +/-15 V) is used to generate - (3*V_DAC0 + DAC1). 
+The signal is then inverted (AD823).
+Then it is fed into a gain = 2 non-inverting Amplifier (again AD823, but powered with +24V / GND. 
+
+At last the signal is filtered by a third order  Butterworth filter with a cutoff frequency of 100 kHz.
+
+
+* Parts
+| Description                       | Brand           | RS order code |
+|-----------------------------------+-----------------+---------------|
+| TMP15215C Power supply            | Traco           |       6641474 |
+| TMP15124C Power supply            | Traco           |       6641468 |
+| TMP15105C Power supply            | Traco           |       6641461 |
+|-----------------------------------+-----------------+---------------|
+| Interscale M19" Enclosure 2U      | Schroff         |       8104387 |
+| Mounting plate                    | Schroff         |       8104425 |
+| PCB holder                        | Schroff         |       8104529 |
+| LED 12V                           | RS Pro          |       8987683 |
+| Ethernet Connector                | TE Connectivity |       7060194 |
+| USB Connector                     | Harting         |       7658757 |
+| BNC Connector                     | TE Connectivity |       5121174 |
+| OR SMA Connector                  | TE Connectivity |      512-0008 |
+| Mains connector                   | Bulgin          |      211-0985 |
+| Slow blow Fuse                    | Schurter        |       7897801 |
+|-----------------------------------+-----------------+---------------|
+| AD823                             | Analog Devices  |       5237409 |
+| DIL Socket                        | Winslow         |        813115 |
+| Terminal Block                    | Phoenix         |       6487863 |
+| SMA Connector                     | TE Connectivity |       6163422 |
+| 0.1" Header                       |                 |               |
+|-----------------------------------+-----------------+---------------|
+| 2 x SMA - SMB Cable for Microwave | RF Solutions    |       7043502 |
+| SMB - SMB adaptor                 | TE Connectivity |       2955766 |
+| Right Angle SMA connector RG58    | RS Pro          |       5463232 |
+| Right angle SMB connector         | TE Connectivity |       4205388 |
+|                                   |                 |               |
+
+5120008
+2110985
+7897801
+813115
+4205366
+5463232
+
+* Assembly instructions
+Arduino Due mount: Drill holes as per [[file:~/Dropbox/RESEARCH/newPolarizer/arduino/arduinoDrawing.pdf][Drawing]]
+(The upper two holes should be used only with insulating supports since they are too close to some pins)
+
+Power supplies: 4 holes 3 - 3.5 mm Diameter on a 46 by 86 mm lattice. 
+Supply dimensions are 54 by 96 mm.
+* Programming
+  [[./Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf][Datasheet]]
+  Range is 0.58 to 2.24 V, see datasheet, p. 1033), according to this [[http://forum.arduino.cc/index.php?topic=154965.0][post]]
+  Page 1412 specifies the range as 1/6 ADVREF to 5/6 ADVREF
+  But ADVREF is 3.3V as can be seen from this [[./schema.jpg][scheme]] taken from this [[http://forum.arduino.cc/index.php?topic=193643.0][post]]
+
+  Regarding speed and timing accuracy, a Timer is key and check this post
+  http://rcarduino.blogspot.co.uk/2012/11/quick-and-dirty-synth-for-arduino-due.html
+
+  So the range is 0.55 to 2.75 V at the DACs outputs.
+
+  The offset (DAC0) is multiplied by 3, and the ramp (DAC0) by one. 
+  That signal is then  multiplied by 2, so in total the minimum voltage is
+  (* 0.55 4 2) = 4.4 V and the maximum voltage is
+  (* 2.75 4 2) = 22 V
+
+  We want to sweep from 12.17 to 13.05V. 
+  Since DAC1 is only multiplied by 2, we need to sweep DAC1 by
+  (/ (- 13.05 12.17) 2) = 0.44V
+
+  So lets sweep DAC1 from 0.55 to 0.99 V or 20% of its range. 
+
+  This will have an offset of 1.1V, so need to configure DAC0 to give 11.07 V.
+  DAC0 is multiplied by 6, so we need to set it to (/ 11.07 6) = 1.845 V.
+  This is 1.295V above its base value, corresponding to (/ 1.295 2.2) 58.9 % of its output range.
+
+  (* 4095 0.589) = 2412
+  (* 4095 0.2)  = 918
+
+* Ethernet Interface
+  An Ethernet interface is implemented. The python module to communicate with the waveform generator is [[~/Dropbox/RESEARCH/newPolarizer/software/waveformGenerator.py][here]].
+
+#+BEGIN_SRC python
+import waveformGenerator as wG
+
+address = ('10.1.15.232', 5000)
+
+waveGen = wG.waveformGenerator(address)
+
+wG.set("DAC0", 15)
+wG.set("DAC1", 32)
+#+END_SRC
+
+** Manual control 
+In this mode one can set the values of DAC1 and DAC2 seperately.
+
+
+* Calibration
+Calibration is done by measuring the output with a Keithley 2400 source meter.
+
+We obtain excellent linearity

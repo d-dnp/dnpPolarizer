@@ -1,0 +1,75 @@
+This document contains info regarding the wiring of the cryoShield as defined in the eagle [[./cryoShield.brd][file]].
+
+The documentation of the corresponding breakout box can be found here [[/Users/benno/Dropbox/RESEARCH/newPolarizer/cryostats/breakoutBoxOle/breakoutBoxOle.org][here]]
+
+ADG3331 selects the driving potential / current source. 
+ADG3332 wires the return path.
+
+See the [[./ADG333A.pdf][manual]].
+
+For Logic 1 Input, Switches switch to the A output
+
+The CS for the AD 7794 was pin 10.
+
+Note that this sketch requires Arduino Pin 4 high to connect the drive current to PIN 1. At the same time Arduino Pin 4 is the Chip Select for the SD functionality.
+
+* BOM 
+| Part            | RS Order Code | Quantity |
+|-----------------+---------------+----------|
+| ADP3303ARZ-3.3  |      697-7713 |        1 |
+| Cap 0.1 uF 0805 |      264-4416 |        5 |
+| Cap 10 uF 1206  |      464-9069 |        1 |
+| Res 220k 0805   |      804-6625 |        1 |
+| USB B to USB A  |      815-8466 |        1 |
+| AD7794CRUZ      |      709-6676 |        1 |
+|                 |               |          |
+
+* Pins
+| Arduino Pin | Functionality | Secondary Device | HIGH Connect to | Low Connect to  |
+|-------------+---------------+------------------+-----------------+-----------------|
+|           0 | free          |                  |                 |                 |
+|           1 | free          |                  |                 |                 |
+|           2 | IN11          | ADG3331          | +5V             | AD7794 I1       |
+|           3 | IN12          | ADG3331          | ADG3331 D3      | ADG3331 D4      |
+|           4 | IN13, CS SD   | ADG3331          | Pin 1           | Pin 2           |
+|           5 | IN14          | ADG3331          | --              | Pin 3           |
+|           6 | IN21          | ADG3332          | 470 Ohm to GND  | GND             |
+|           7 | IN22          | ADG3332          | ADG332 D3 to D1 | ADG332 D4 to D1 |
+|           8 | IN23          | ADG3332          | Pin 2           | Pin 3           |
+|           9 | IN24          | ADG3332          | --              | Pin 4           |
+|          10 | CS ETHERNET   |                  |                 |                 |
+
+* Pin Configurations Drive Path
+| 2 | 3 | 4 | 5 | Function              |
+|---+---+---+---+-----------------------|
+| 0 | 0 | 0 | 0 | Connect I1 to Pin 3   |
+| 1 | 0 | 0 | 0 | Connect +5V to Pin 3  |
+| 1 | 1 | 0 | 0 | Connect +5V to Pin 2  |
+| 1 | 1 | 1 | 0 | Connnect +5V to Pin 1 |
+
+* Pin Configuration Return Path
+| 6 | 7 | 8 | 9 | Function              |
+|---+---+---+---+-----------------------|
+| 0 | 0 | 0 | 0 | D1 to GND             |
+| 1 | 0 | 0 | 0 | D1 to 470 Ohm to GND  |
+| 0 | 0 | 0 | 0 | D4 to D1, Pin 4 to D1 |
+| 0 | 1 | 0 | 0 | D3 to D1, Pin 3 to D3 |
+| 0 | 1 | 1 | 0 | D3 to D1, Pin 2 to D1 | 
+
+* Probing conditions
+Hence for probing the first, second and third resistor with I1, the following pin configurations apply.
+
+Note, that if you want to chase +5V to drive, just set Pin 2 HIGH
+
+The return path connects straight to GND. If you want to connect via 470 Ohm to GND, just set Pin 6 HIGH.
+
+Pin 5 is always low, it connects to Pin 3 and there is no 4th drive pin.
+Likewise, Pin 9 is always low, it connects the return path to Pin 4. 
+
+| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | Functionality                             |
+|---+---+---+---+---+---+---+---+-------------------------------------------|
+| 0 | 1 | 1 | 0 | 0 | 1 | 1 | 0 | Connect I1 to Pin 1, Return Path to Pin 2 |
+| 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | Connect I1 to Pin 2, Return Path to Pin 3 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Connect I1 to Pin 3, Return Path to Pin 4 |
+
+

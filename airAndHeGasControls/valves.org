@@ -1,0 +1,91 @@
+* Swagelok actuators
+http://www.swagelok.com/downloads/WebCatalogs/EN/MS-02-343.pdf
+
+* Swagelok pneumatically actuated 2 way ball-valve
+[[http://www.swagelok.com/search/find_products_home.aspx?part=SS-42GS4-31C#][SS-42GS4-31C]]
+243.65 GBP
+
+* Adapter Actuator to 6 mm tubing: RS 536-2606 
+
+* SMC Manifold
+** Manifold
+http://uk.rs-online.com/web/p/products/762-2036/?origin=PSF_428500|QVBasket%20Summary-LL
+222.28 GBP
+762-2036
+SMC 
+SS5Y3-10F1-12B-C6
+
+** Blanking plate
+http://uk.rs-online.com/web/p/blanking-plates-for-pneumatic-control-valves/7622095/?origin=PSF_428499|acc
+5.14 GBP
+762-2095
+
+* SMC Valve
+SY3A00-5U1
+http://uk.rs-online.com/web/p/pneumatic-solenoid-pilot-operated-control-valves/7622076/
+70.83 GBP
+762
+* Silencer
+http://uk.rs-online.com/web/p/pneumatic-silencer-exhaust-restrictor-function-fittings/7622082/
+3.43 GBP
+762-2082
+
+* 6 mm feed-through
+Bulkhead Union 6mm
+http://uk.rs-online.com/web/p/pneumatic-bulkhead-tube-to-tube-adaptors/7714936/
+4.27 GBP (5 MOQ)
+SMC 
+KQ2E06-00A
+
+* MOSFET DRIVER 24V
+ZXGD3003E6TA, MOSFET Power Driver 5A, Non-Inverting, Maximum of 40V, 6-Pin SOT-23
+http://uk.rs-online.com/web/p/mosfet-power-drivers/7122839/
+0.189 GBP (50 OQ)
+
+* 25 pin d-sub pcb
+http://uk.rs-online.com/web/p/pcb-d-sub-connectors/7183474/
+
+
+* Feed through for dissolution stick
+** Plug (max cable diameter 6.7mm, 0.79mm)
+http://uk.rs-online.com/web/p/industrial-automation-circular-connectors/7263324/
+PLUG, IP68, PUSH-PULL, 7WAY
+33.30 GBP
+
+** Receptable
+http://uk.rs-online.com/web/p/industrial-automation-circular-connectors/7263390/?origin=PSF_435588|acc
+726-3390
+38.58 GBP
+
+* Cable
+http://uk.rs-online.com/web/p/cy-cable/4451682/
+445-1682
+118.02
+
+* Drill/Driver
+http://uk.rs-online.com/web/p/cordless-drills-drill-drivers/7525424/
+18V XR Li-Ion Compact Drill Driver
+215 GBP
+
+* SETUP
+  PinOut: [[./SY3000-5000_B_EU-1.pdf::36][Manual page 57]]
+  In any case common is pin 13pn
+  Pin 1 is the row with more pins, on the side opposite to the
+  ports. Then it is clockwise. 
+
+  Next check, if the valve has polarity. Our valve is SY3A00-5U1. U is
+  unpolar, so this should be fine. So we have
+| Station | Pin | Farbe  |
+|---------+-----+--------|
+|       1 |   1 | weiss  |
+|       2 |  14 | grau   |
+|       3 |   2 | lila   |
+|       4 |  15 | blau   |
+|       5 |   3 | gruen  |
+|       6 |  16 | gelb   |
+|       7 |   4 | orange |
+|       8 |  17 | rot    |
+|       9 |   5 |        |
+|      10 |  18 |        |
+|      11 |   6 |        |
+|      12 |  19 |        |

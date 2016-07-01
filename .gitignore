@@ -1,0 +1,6 @@
+*.pyc
+*.pyc~
+*.py~
+*.org~
+*.DS_Store
+*.dropbox

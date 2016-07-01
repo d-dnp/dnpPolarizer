@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Testversion-->
+<Drawing>
+  <!--en-GB  eng  ENG  English (United Kingdom)  English (United Kingdom)-->
+  <DrawingType Value="1" />
+  <FileSaved Value="06/27/2014 19:50:13" RawValue="DC1372255860D148" />
+  <FileSavedLocal Value="27/06/2014 20:50:13" RawValue="DC1372255860D188" />
+  <CADObjects Value="9" />
+  <FileVersion Value="802" />
+  <WithToolChange Value="FALSE" />
+  <WithToolCorrectionMemory Value="FALSE" />
+  <NPlane Value="FALSE" />
+  <AutomaticMultiSidedMachining Value="TRUE" />
+  <GridCatch>
+    <MainGridX Value="10" RawValue="2440" />
+    <MainGridY Value="10" RawValue="2440" />
+    <SecondaryGridX Value="1" RawValue="F03F" />
+    <SecondaryGridY Value="1" RawValue="F03F" />
+    <CatchDistanceX Value="1" RawValue="F03F" />
+    <CatchDistanceY Value="1" RawValue="F03F" />
+  </GridCatch>
+  <PAPER>
+    <Breadth Value="0" RawValue="0" />
+    <Height Value="0" RawValue="0" />
+    <Size Value="0" />
+    <Margin Value="0" RawValue="0" />
+    <Portrait Value="FALSE" />
+    <Red Value="0" RawValue="0" />
+    <Green Value="0" RawValue="0" />
+    <Blue Value="0" RawValue="0" />
+    <Alpha Value="0" RawValue="0" />
+  </PAPER>
+  <WORKPIECE>
+    <X_MIN Value="0" RawValue="0" />
+    <X_MAX Value="160" RawValue="6440" />
+    <Y_MIN Value="0" RawValue="0" />
+    <Y_MAX Value="50" RawValue="4940" />
+    <Z_MIN Value="0" RawValue="0" />
+    <Z_MAX Value="7" RawValue="1C40" />
+    <OuterDiameter Value="0" RawValue="0" />
+    <InnerDiameter Value="0" RawValue="0" />
+    <Length Value="0" RawValue="0" />
+    <ClampingLength Value="0" RawValue="0" />
+    <OuterClamping Value="FALSE" />
+    <MATERIAL>
+      <Red Value="0" RawValue="0" />
+      <Green Value="0" RawValue="0" />
+      <Blue Value="0.4" RawValue="CDCCCC3E" />
+      <Alpha Value="0.25" RawValue="803E" />
+      <Number Value="0" RawValue="0" />
+    </MATERIAL>
+  </WORKPIECE>
+  <USERINFO>
+    <FirstTime>
+      <DateUTC Value="24/06/2014 16:55:54" RawValue="6D50FDE9DB5DD188" />
+      <DateLocal Value="24/06/2014 16:55:54" RawValue="6D50FDE9DB5DD188" />
+      <UserName><![CDATA[aluminiumSpacer]]></UserName>
+      <UserComment><![CDATA[spacer Plate to put between valve and back plate]]></UserComment>
+    </FirstTime>
+    <LastTime>
+      <DateUTC Value="06/27/2014 18:57:59" RawValue="52800BD95060D148" />
+      <DateLocal Value="27/06/2014 19:57:59" RawValue="52800BD95060D188" />
+      <UserName><![CDATA[benno]]></UserName>
+      <UserComment><![CDATA[ok]]></UserComment>
+    </LastTime>
+  </USERINFO>
+  <CADPLANES>
+    <NumberOfCADPlane Value="1" />
+    <CADPLANE>
+      <Number Value="1" />
+      <Name><![CDATA[Milling XY-level]]></Name>
+      <Visible Value="TRUE" />
+      <Locked Value="FALSE" />
+      <Active Value="TRUE" />
+      <Collapsed Value="FALSE" />
+      <GroupsCount Value="3" />
+      <PlaneORDERNR Value="1" />
+      <AUSBEZREFFLAG Value="0" />
+    </CADPLANE>
+  </CADPLANES>
+  <CADGROUPS>
+    <NumberOfCADGroups Value="3" />
+    <CADGROUP>
+      <Type Value="0" />
+      <Documentation Value="FALSE" />
+      <Number Value="0" />
+      <Name><![CDATA[]]></Name>
+      <Color>
+        <Red Value="0" RawValue="0" />
+        <Green Value="0" RawValue="0" />
+        <Blue Value="0" RawValue="0" />
+        <Alpha Value="0" RawValue="0" />
+      </Color>
+      <Visible Value="TRUE" />
+      <Locked Value="FALSE" />
+      <Active Value="FALSE" />
+      <Collapsed Value="FALSE" />
+      <PlaneNr Value="1" />
+      <CAMDATA>
+        <Group Value="0" />
+        <SpindleType Value="0" />
+        <SpindleRPM Value="0" />
+        <Voltage Value="0" RawValue="0" />
+        <ToolNumber Value="0" />
+        <ToolDiameter Value="0" RawValue="0" />
+        <Feed Value="0" RawValue="0" />
+        <FeedZAxis Value="0" RawValue="0" />
+        <StartDepth Value="0" RawValue="0" />
+        <TotalDepth Value="0" RawValue="0" />
+        <InfeedDepth Value="0" RawValue="0" />
+        <MachiningIndex Value="0" />
+        <ToolCompensationIndex Value="0" />
+        <RelayBefore Value="0" />
+        <RelayAfterwards Value="0" />
+        <InterGroupOrderNr Value="0" />
+        <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+        <SafetyDistance Value="0" RawValue="0" />
+        <SafetyDistanceZ Value="0" RawValue="0" />
+        <SHIFT Value="0" RawValue="0" />
+        <OverlappingFactor Value="0" RawValue="0" />
+        <Angle Value="0" RawValue="0" />
+        <SkinThickness Value="0" RawValue="0" />
+        <GoBackMeasure Value="0" RawValue="0" />
+        <STOPManOp Value="FALSE" />
+        <PulseSpacing Value="0" RawValue="0" />
+        <PulseFunctionActive Value="FALSE" />
+        <DepthControlling Value="FALSE" />
+        <PocketWithIsland Value="FALSE" />
+        <STL_CAMDATA>
+          <PathStepSize Value="0" RawValue="0" />
+          <PathStepSizeIndex Value="0" />
+          <PathDistance Value="0" RawValue="0" />
+          <PathDistanceIndex Value="0" />
+          <Trench Value="FALSE" />
+          <Skin Value="0" RawValue="0" />
+          <MultiAngleMachining Value="FALSE" />
+          <MultiAngleMachiningPositions Value="0" />
+          <MultiAngleMachiningAngle Value="0" RawValue="0" />
+          <MultiAngleTurningProcess Value="0" RawValue="0" />
+          <MachiningDepth1 Value="0" RawValue="0" />
+          <MachiningDepth2 Value="0" RawValue="0" />
+          <MachiningDepth3 Value="0" RawValue="0" />
+          <MachiningDepth4 Value="0" RawValue="0" />
+          <ClampSizeXMin Value="0" RawValue="0" />
+        </STL_CAMDATA>
+      </CAMDATA>
+      <CAMDATADEF>
+        <Group Value="FALSE" />
+        <SpindleType Value="FALSE" />
+        <SpindleRPM Value="FALSE" />
+        <Voltage Value="FALSE" />
+        <ToolNumber Value="FALSE" />
+        <ToolDiameter Value="FALSE" />
+        <Feed Value="FALSE" />
+        <FeedZAxis Value="FALSE" />
+        <StartDepth Value="FALSE" />
+        <TotalDepth Value="FALSE" />
+        <InfeedDepth Value="FALSE" />
+        <MachiningIndex Value="FALSE" />
+        <ToolCompensationIndex Value="FALSE" />
+        <RelayBefore Value="FALSE" />
+        <RelayAfterwards Value="FALSE" />
+        <DirectionMachining Value="FALSE" />
+        <SafetyDistance Value="FALSE" />
+        <SafetyDistanceZ Value="FALSE" />
+        <Shift Value="FALSE" />
+        <OverlappingFactor Value="FALSE" />
+        <Angle Value="FALSE" />
+        <SkinThickness Value="FALSE" />
+        <GoBackMeasure Value="FALSE" />
+        <PulseSpacing Value="FALSE" />
+        <PulseFunctionActive Value="FALSE" />
+        <STL_CAMDATADEF>
+          <PathStepSize Value="FALSE" />
+          <PathStepSizeIndex Value="FALSE" />
+          <PathDistance Value="FALSE" />
+          <PathDistanceIndex Value="FALSE" />
+          <Trench Value="FALSE" />
+          <Skin Value="FALSE" />
+        </STL_CAMDATADEF>
+      </CAMDATADEF>
+      <GROUPORDERNR Value="0" />
+    </CADGROUP>
+    <CADGROUP>
+      <Type Value="0" />
+      <Documentation Value="FALSE" />
+      <Number Value="1" />
+      <Name><![CDATA[Group 1]]></Name>
+      <Color>
+        <Red Value="1" RawValue="803F" />
+        <Green Value="0.6392157" RawValue="A4A3233F" />
+        <Blue Value="0" RawValue="0" />
+        <Alpha Value="1" RawValue="803F" />
+      </Color>
+      <Visible Value="TRUE" />
+      <Locked Value="FALSE" />
+      <Active Value="TRUE" />
+      <Collapsed Value="FALSE" />
+      <PlaneNr Value="1" />
+      <CAMDATA>
+        <Group Value="0" />
+        <SpindleType Value="2" />
+        <SpindleRPM Value="0" />
+        <Voltage Value="0" RawValue="0" />
+        <ToolNumber Value="0" />
+        <ToolDiameter Value="6" RawValue="1840" />
+        <Feed Value="20" RawValue="A041" />
+        <FeedZAxis Value="7" RawValue="E040" />
+        <StartDepth Value="0" RawValue="0" />
+        <TotalDepth Value="8" RawValue="2040" />
+        <InfeedDepth Value="3" RawValue="840" />
+        <MachiningIndex Value="1" />
+        <ToolCompensationIndex Value="1" />
+        <RelayBefore Value="223" />
+        <RelayAfterwards Value="223" />
+        <InterGroupOrderNr Value="0" />
+        <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+        <SafetyDistance Value="5" RawValue="1440" />
+        <SafetyDistanceZ Value="5" RawValue="1440" />
+        <SHIFT Value="0" RawValue="0" />
+        <OverlappingFactor Value="50" RawValue="4940" />
+        <Angle Value="0" RawValue="0" />
+        <SkinThickness Value="0" RawValue="0" />
+        <GoBackMeasure Value="0" RawValue="0" />
+        <STOPManOp Value="FALSE" />
+        <PulseSpacing Value="5" RawValue="1440" />
+        <PulseFunctionActive Value="FALSE" />
+        <DepthControlling Value="FALSE" />
+        <PocketWithIsland Value="FALSE" />
+        <STL_CAMDATA>
+          <PathStepSize Value="0" RawValue="0" />
+          <PathStepSizeIndex Value="0" />
+          <PathDistance Value="0" RawValue="0" />
+          <PathDistanceIndex Value="0" />
+          <Trench Value="FALSE" />
+          <Skin Value="0" RawValue="0" />
+          <MultiAngleMachining Value="FALSE" />
+          <MultiAngleMachiningPositions Value="0" />
+          <MultiAngleMachiningAngle Value="0" RawValue="0" />
+          <MultiAngleTurningProcess Value="0" RawValue="0" />
+          <MachiningDepth1 Value="0" RawValue="0" />
+          <MachiningDepth2 Value="0" RawValue="0" />
+          <MachiningDepth3 Value="0" RawValue="0" />
+          <MachiningDepth4 Value="0" RawValue="0" />
+          <ClampSizeXMin Value="0" RawValue="0" />
+        </STL_CAMDATA>
+      </CAMDATA>
+      <CAMDATADEF>
+        <Group Value="FALSE" />
+        <SpindleType Value="TRUE" />
+        <SpindleRPM Value="FALSE" />
+        <Voltage Value="FALSE" />
+        <ToolNumber Value="FALSE" />
+        <ToolDiameter Value="TRUE" />
+        <Feed Value="TRUE" />
+        <FeedZAxis Value="TRUE" />
+        <StartDepth Value="FALSE" />
+        <TotalDepth Value="TRUE" />
+        <InfeedDepth Value="TRUE" />
+        <MachiningIndex Value="TRUE" />
+        <ToolCompensationIndex Value="TRUE" />
+        <RelayBefore Value="TRUE" />
+        <RelayAfterwards Value="TRUE" />
+        <DirectionMachining Value="FALSE" />
+        <SafetyDistance Value="TRUE" />
+        <SafetyDistanceZ Value="TRUE" />
+        <Shift Value="TRUE" />
+        <OverlappingFactor Value="TRUE" />
+        <Angle Value="TRUE" />
+        <SkinThickness Value="TRUE" />
+        <GoBackMeasure Value="TRUE" />
+        <PulseSpacing Value="FALSE" />
+        <PulseFunctionActive Value="FALSE" />
+        <STL_CAMDATADEF>
+          <PathStepSize Value="FALSE" />
+          <PathStepSizeIndex Value="FALSE" />
+          <PathDistance Value="FALSE" />
+          <PathDistanceIndex Value="FALSE" />
+          <Trench Value="FALSE" />
+          <Skin Value="FALSE" />
+        </STL_CAMDATADEF>
+      </CAMDATADEF>
+      <GROUPORDERNR Value="3" />
+    </CADGROUP>
+    <CADGROUP>
+      <Type Value="0" />
+      <Documentation Value="FALSE" />
+      <Number Value="2" />
+      <Name><![CDATA[Group 2]]></Name>
+      <Color>
+        <Red Value="0" RawValue="0" />
+        <Green Value="0" RawValue="0" />
+        <Blue Value="1" RawValue="803F" />
+        <Alpha Value="1" RawValue="803F" />
+      </Color>
+      <Visible Value="TRUE" />
+      <Locked Value="FALSE" />
+      <Active Value="TRUE" />
+      <Collapsed Value="FALSE" />
+      <PlaneNr Value="1" />
+      <CAMDATA>
+        <Group Value="0" />
+        <SpindleType Value="2" />
+        <SpindleRPM Value="0" />
+        <Voltage Value="0" RawValue="0" />
+        <ToolNumber Value="0" />
+        <ToolDiameter Value="5" RawValue="1440" />
+        <Feed Value="20" RawValue="A041" />
+        <FeedZAxis Value="5" RawValue="A040" />
+        <StartDepth Value="0" RawValue="0" />
+        <TotalDepth Value="15" RawValue="2E40" />
+        <InfeedDepth Value="3" RawValue="840" />
+        <MachiningIndex Value="1" />
+        <ToolCompensationIndex Value="1" />
+        <RelayBefore Value="223" />
+        <RelayAfterwards Value="223" />
+        <InterGroupOrderNr Value="0" />
+        <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+        <SafetyDistance Value="15" RawValue="2E40" />
+        <SafetyDistanceZ Value="0" RawValue="0" />
+        <SHIFT Value="0" RawValue="0" />
+        <OverlappingFactor Value="50" RawValue="4940" />
+        <Angle Value="0" RawValue="0" />
+        <SkinThickness Value="0" RawValue="0" />
+        <GoBackMeasure Value="0" RawValue="0" />
+        <STOPManOp Value="FALSE" />
+        <PulseSpacing Value="5" RawValue="1440" />
+        <PulseFunctionActive Value="FALSE" />
+        <DepthControlling Value="FALSE" />
+        <PocketWithIsland Value="FALSE" />
+        <STL_CAMDATA>
+          <PathStepSize Value="0" RawValue="0" />
+          <PathStepSizeIndex Value="0" />
+          <PathDistance Value="0" RawValue="0" />
+          <PathDistanceIndex Value="0" />
+          <Trench Value="FALSE" />
+          <Skin Value="0" RawValue="0" />
+          <MultiAngleMachining Value="FALSE" />
+          <MultiAngleMachiningPositions Value="0" />
+          <MultiAngleMachiningAngle Value="0" RawValue="0" />
+          <MultiAngleTurningProcess Value="0" RawValue="0" />
+          <MachiningDepth1 Value="0" RawValue="0" />
+          <MachiningDepth2 Value="0" RawValue="0" />
+          <MachiningDepth3 Value="0" RawValue="0" />
+          <MachiningDepth4 Value="0" RawValue="0" />
+          <ClampSizeXMin Value="0" RawValue="0" />
+        </STL_CAMDATA>
+      </CAMDATA>
+      <CAMDATADEF>
+        <Group Value="FALSE" />
+        <SpindleType Value="TRUE" />
+        <SpindleRPM Value="FALSE" />
+        <Voltage Value="FALSE" />
+        <ToolNumber Value="FALSE" />
+        <ToolDiameter Value="TRUE" />
+        <Feed Value="TRUE" />
+        <FeedZAxis Value="TRUE" />
+        <StartDepth Value="FALSE" />
+        <TotalDepth Value="TRUE" />
+        <InfeedDepth Value="TRUE" />
+        <MachiningIndex Value="TRUE" />
+        <ToolCompensationIndex Value="TRUE" />
+        <RelayBefore Value="TRUE" />
+        <RelayAfterwards Value="TRUE" />
+        <DirectionMachining Value="FALSE" />
+        <SafetyDistance Value="TRUE" />
+        <SafetyDistanceZ Value="FALSE" />
+        <Shift Value="FALSE" />
+        <OverlappingFactor Value="FALSE" />
+        <Angle Value="FALSE" />
+        <SkinThickness Value="TRUE" />
+        <GoBackMeasure Value="TRUE" />
+        <PulseSpacing Value="FALSE" />
+        <PulseFunctionActive Value="FALSE" />
+        <STL_CAMDATADEF>
+          <PathStepSize Value="FALSE" />
+          <PathStepSizeIndex Value="FALSE" />
+          <PathDistance Value="FALSE" />
+          <PathDistanceIndex Value="FALSE" />
+          <Trench Value="FALSE" />
+          <Skin Value="FALSE" />
+        </STL_CAMDATADEF>
+      </CAMDATADEF>
+      <GROUPORDERNR Value="1" />
+    </CADGROUP>
+    <CADGROUP>
+      <Type Value="0" />
+      <Documentation Value="FALSE" />
+      <Number Value="3" />
+      <Name><![CDATA[Group 3]]></Name>
+      <Color>
+        <Red Value="0" RawValue="0" />
+        <Green Value="1" RawValue="803F" />
+        <Blue Value="1" RawValue="803F" />
+        <Alpha Value="1" RawValue="803F" />
+      </Color>
+      <Visible Value="TRUE" />
+      <Locked Value="FALSE" />
+      <Active Value="TRUE" />
+      <Collapsed Value="FALSE" />
+      <PlaneNr Value="1" />
+      <CAMDATA>
+        <Group Value="0" />
+        <SpindleType Value="2" />
+        <SpindleRPM Value="0" />
+        <Voltage Value="0" RawValue="0" />
+        <ToolNumber Value="0" />
+        <ToolDiameter Value="5" RawValue="1440" />
+        <Feed Value="20" RawValue="A041" />
+        <FeedZAxis Value="7" RawValue="E040" />
+        <StartDepth Value="0" RawValue="0" />
+        <TotalDepth Value="8" RawValue="2040" />
+        <InfeedDepth Value="3" RawValue="840" />
+        <MachiningIndex Value="1" />
+        <ToolCompensationIndex Value="1" />
+        <RelayBefore Value="223" />
+        <RelayAfterwards Value="223" />
+        <InterGroupOrderNr Value="0" />
+        <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+        <SafetyDistance Value="0" RawValue="0" />
+        <SafetyDistanceZ Value="0" RawValue="0" />
+        <SHIFT Value="0" RawValue="0" />
+        <OverlappingFactor Value="50" RawValue="4940" />
+        <Angle Value="0" RawValue="0" />
+        <SkinThickness Value="0" RawValue="0" />
+        <GoBackMeasure Value="0" RawValue="0" />
+        <STOPManOp Value="FALSE" />
+        <PulseSpacing Value="5" RawValue="1440" />
+        <PulseFunctionActive Value="FALSE" />
+        <DepthControlling Value="FALSE" />
+        <PocketWithIsland Value="FALSE" />
+        <STL_CAMDATA>
+          <PathStepSize Value="0" RawValue="0" />
+          <PathStepSizeIndex Value="0" />
+          <PathDistance Value="0" RawValue="0" />
+          <PathDistanceIndex Value="0" />
+          <Trench Value="FALSE" />
+          <Skin Value="0" RawValue="0" />
+          <MultiAngleMachining Value="FALSE" />
+          <MultiAngleMachiningPositions Value="0" />
+          <MultiAngleMachiningAngle Value="0" RawValue="0" />
+          <MultiAngleTurningProcess Value="0" RawValue="0" />
+          <MachiningDepth1 Value="0" RawValue="0" />
+          <MachiningDepth2 Value="0" RawValue="0" />
+          <MachiningDepth3 Value="0" RawValue="0" />
+          <MachiningDepth4 Value="0" RawValue="0" />
+          <ClampSizeXMin Value="0" RawValue="0" />
+        </STL_CAMDATA>
+      </CAMDATA>
+      <CAMDATADEF>
+        <Group Value="FALSE" />
+        <SpindleType Value="TRUE" />
+        <SpindleRPM Value="FALSE" />
+        <Voltage Value="FALSE" />
+        <ToolNumber Value="FALSE" />
+        <ToolDiameter Value="TRUE" />
+        <Feed Value="TRUE" />
+        <FeedZAxis Value="TRUE" />
+        <StartDepth Value="FALSE" />
+        <TotalDepth Value="TRUE" />
+        <InfeedDepth Value="TRUE" />
+        <MachiningIndex Value="TRUE" />
+        <ToolCompensationIndex Value="TRUE" />
+        <RelayBefore Value="TRUE" />
+        <RelayAfterwards Value="TRUE" />
+        <DirectionMachining Value="FALSE" />
+        <SafetyDistance Value="FALSE" />
+        <SafetyDistanceZ Value="FALSE" />
+        <Shift Value="FALSE" />
+        <OverlappingFactor Value="FALSE" />
+        <Angle Value="FALSE" />
+        <SkinThickness Value="TRUE" />
+        <GoBackMeasure Value="TRUE" />
+        <PulseSpacing Value="FALSE" />
+        <PulseFunctionActive Value="FALSE" />
+        <STL_CAMDATADEF>
+          <PathStepSize Value="FALSE" />
+          <PathStepSizeIndex Value="FALSE" />
+          <PathDistance Value="FALSE" />
+          <PathDistanceIndex Value="FALSE" />
+          <Trench Value="FALSE" />
+          <Skin Value="FALSE" />
+        </STL_CAMDATADEF>
+      </CAMDATADEF>
+      <GROUPORDERNR Value="2" />
+    </CADGROUP>
+  </CADGROUPS>
+  <CAD_DATA>
+    <LINE>
+      <P1>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="42.5" RawValue="404540" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="40" RawValue="4440" />
+        <Y Value="42.5" RawValue="404540" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Center>
+        <X Value="25.51" RawValue="C2F5285C8F823940" />
+        <Y Value="42.5" RawValue="404540" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <Length Value="28.98" RawValue="7B14AE47E1FA3C40" />
+      <Angle Value="0" RawValue="0" />
+      <COMMONDATA>
+        <Name><![CDATA[LINE 3]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="11.0200004577637" RawValue="803D0A2640" />
+          <Y Value="42.5" RawValue="404540" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="1" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="6" RawValue="1840" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="1" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="5" RawValue="1440" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </LINE>
+    <LINE>
+      <P1>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="7.5" RawValue="1E40" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="40" RawValue="4440" />
+        <Y Value="7.5" RawValue="1E40" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Center>
+        <X Value="25.51" RawValue="C2F5285C8F823940" />
+        <Y Value="7.5" RawValue="1E40" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <Length Value="28.98" RawValue="7B14AE47E1FA3C40" />
+      <Angle Value="0" RawValue="0" />
+      <COMMONDATA>
+        <Name><![CDATA[LINE 4]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="11.0200004577637" RawValue="803D0A2640" />
+          <Y Value="7.5" RawValue="1E40" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="1" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="6" RawValue="1840" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="2" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="5" RawValue="1440" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </LINE>
+    <ARC>
+      <Center>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="16.02" RawValue="85EB51B81E053040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="7.5" RawValue="1E40" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="2.5" RawValue="440" />
+        <Y Value="16.02" RawValue="85EB51B81E053040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="8.52" RawValue="AD7A3703D0A2140" />
+      <Angle1 Value="4.71238898038469" RawValue="D221337F7CD91240" />
+      <Angle2 Value="3.14159265358979" RawValue="182D4454FB210940" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 2]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="11.02" RawValue="AD7A3703D0A2640" />
+          <Y Value="16.02" RawValue="85EB51B81E053040" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="1" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="6" RawValue="1840" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="3" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="5" RawValue="1440" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+    <ARC>
+      <Center>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="33.98" RawValue="3E0AD7A370FD4040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="2.5" RawValue="440" />
+        <Y Value="33.98" RawValue="3E0AD7A370FD4040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="11.02" RawValue="AD7A3703D0A2640" />
+        <Y Value="42.5" RawValue="404540" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="8.52" RawValue="AD7A3703D0A2140" />
+      <Angle1 Value="3.14159265358979" RawValue="182D4454FB210940" />
+      <Angle2 Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 2]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="11.02" RawValue="AD7A3703D0A2640" />
+          <Y Value="33.98" RawValue="3E0AD7A370FD4040" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="1" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="6" RawValue="1840" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="4" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="5" RawValue="1440" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+    <LINE>
+      <P1>
+        <X Value="2.05" RawValue="6666666666660040" />
+        <Y Value="16.02" RawValue="85EB51B81E053040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="2.05" RawValue="6666666666660040" />
+        <Y Value="33.98" RawValue="3D0AD7A370FD4040" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Center>
+        <X Value="2.05" RawValue="6666666666660040" />
+        <Y Value="25" RawValue="3940" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <Length Value="17.96" RawValue="F5285C8FC2F53140" />
+      <Angle Value="90" RawValue="805640" />
+      <COMMONDATA>
+        <Name><![CDATA[LINE 3]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="2.04999995231628" RawValue="6066660040" />
+          <Y Value="16.0200004577637" RawValue="C01E053040" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="1" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="6" RawValue="1840" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="5" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="5" RawValue="1440" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </LINE>
+    <ARC>
+      <Center>
+        <X Value="40" RawValue="4440" />
+        <Y Value="45.5" RawValue="C04640" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="43.001" RawValue="E3A59BC420804540" />
+        <Y Value="45.5" RawValue="C04640" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="40" RawValue="4440" />
+        <Y Value="42.499" RawValue="1D5A643BDF3F4540" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="3.001" RawValue="305EBA490C020840" />
+      <Angle1 Value="0" RawValue="0" />
+      <Angle2 Value="4.71238898038469" RawValue="D221337F7CD91240" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 4]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="40" RawValue="4440" />
+          <Y Value="45.5" RawValue="C04640" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="3" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="5" RawValue="1440" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="1" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="15" RawValue="2E40" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+    <ARC>
+      <Center>
+        <X Value="46" RawValue="4740" />
+        <Y Value="45.5" RawValue="C04640" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="42.999" RawValue="1D5A643BDF7F4540" />
+        <Y Value="45.5" RawValue="C04640" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="46" RawValue="4740" />
+        <Y Value="48.501" RawValue="E3A59BC420404840" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="3.001" RawValue="305EBA490C020840" />
+      <Angle1 Value="3.14159265358979" RawValue="182D4454FB210940" />
+      <Angle2 Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 4]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="46" RawValue="4740" />
+          <Y Value="45.5" RawValue="C04640" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="3" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="5" RawValue="1440" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="2" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="15" RawValue="2E40" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+    <ARC>
+      <Center>
+        <X Value="46" RawValue="4740" />
+        <Y Value="4.5" RawValue="1240" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="46" RawValue="4740" />
+        <Y Value="1.499" RawValue="A0438B6CE7FBF73F" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="42.999" RawValue="1D5A643BDF7F4540" />
+        <Y Value="4.5" RawValue="1240" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="3.001" RawValue="305EBA490C020840" />
+      <Angle1 Value="4.71238898038469" RawValue="D221337F7CD91240" />
+      <Angle2 Value="3.14159265358979" RawValue="182D4454FB210940" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 7]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="46" RawValue="4740" />
+          <Y Value="4.5" RawValue="1240" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="3" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="5" RawValue="1440" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="3" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="15" RawValue="2E40" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+    <ARC>
+      <Center>
+        <X Value="40" RawValue="4440" />
+        <Y Value="4.5" RawValue="1240" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </Center>
+      <P1>
+        <X Value="40" RawValue="4440" />
+        <Y Value="7.501" RawValue="182FDD2406011E40" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P1>
+      <P2>
+        <X Value="43.001" RawValue="E3A59BC420804540" />
+        <Y Value="4.5" RawValue="1240" />
+        <Z Value="0" RawValue="0" />
+        <U Value="0" RawValue="0" />
+        <C Value="0" RawValue="0" />
+      </P2>
+      <Radius Value="3.001" RawValue="305EBA490C020840" />
+      <Angle1 Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <Angle2 Value="6.28318530717959" RawValue="182D4454FB211940" />
+      <CentralAngle Value="1.5707963267949" RawValue="182D4454FB21F93F" />
+      <COMMONDATA>
+        <Name><![CDATA[ARC 8]]></Name>
+        <Documentation Value="FALSE" />
+        <Visible Value="TRUE" />
+        <Locked Value="FALSE" />
+        <Objects Value="0" />
+        <Color Value="0" RawValue="0" />
+        <Origin>
+          <X Value="40" RawValue="4440" />
+          <Y Value="4.5" RawValue="1240" />
+          <Z Value="0" RawValue="0" />
+          <U Value="0" RawValue="0" />
+          <C Value="0" RawValue="0" />
+        </Origin>
+        <LineStyle Value="1" />
+        <LineSize Value="1" />
+        <VisibleTree Value="FALSE" />
+        <PlaneNr Value="1" />
+        <IsSymbol Value="FALSE" />
+        <Collapsed Value="FALSE" />
+        <CAMDATA>
+          <Group Value="3" />
+          <SpindleType Value="2" />
+          <SpindleRPM Value="0" />
+          <Voltage Value="0" RawValue="0" />
+          <ToolNumber Value="0" />
+          <ToolDiameter Value="5" RawValue="1440" />
+          <Feed Value="20" RawValue="A041" />
+          <FeedZAxis Value="7" RawValue="E040" />
+          <StartDepth Value="0" RawValue="0" />
+          <TotalDepth Value="8" RawValue="2040" />
+          <InfeedDepth Value="3" RawValue="840" />
+          <MachiningIndex Value="1" />
+          <ToolCompensationIndex Value="1" />
+          <RelayBefore Value="223" />
+          <RelayAfterwards Value="223" />
+          <InterGroupOrderNr Value="4" />
+          <DirectionMachining><![CDATA[CW]]></DirectionMachining>
+          <SafetyDistance Value="15" RawValue="2E40" />
+          <SafetyDistanceZ Value="5" RawValue="1440" />
+          <SHIFT Value="0" RawValue="0" />
+          <OverlappingFactor Value="50" RawValue="4940" />
+          <Angle Value="0" RawValue="0" />
+          <SkinThickness Value="0" RawValue="0" />
+          <GoBackMeasure Value="0" RawValue="0" />
+          <STOPManOp Value="FALSE" />
+          <PulseSpacing Value="5" RawValue="1440" />
+          <PulseFunctionActive Value="FALSE" />
+          <DepthControlling Value="FALSE" />
+          <PocketWithIsland Value="FALSE" />
+        </CAMDATA>
+      </COMMONDATA>
+    </ARC>
+  </CAD_DATA>
+  <PCB>
+    <PadSizes>
+      <PadSizes0 Value="0" RawValue="0" />
+      <PadSizes1 Value="2.52" RawValue="295C8FC2F5280440" />
+      <PadSizes2 Value="3.76" RawValue="14AE47E17A140E40" />
+      <PadSizes3 Value="5.02" RawValue="14AE47E17A141440" />
+      <PadSizes4 Value="1.78" RawValue="7B14AE47E17AFC3F" />
+      <PadSizes5 Value="2.52" RawValue="295C8FC2F5280440" />
+      <PadSizes6 Value="2.52" RawValue="295C8FC2F5280440" />
+      <PadSizes7 Value="2.52" RawValue="295C8FC2F5280440" />
+    </PadSizes>
+    <PathSizes>
+      <PathSizes0 Value="0" RawValue="0" />
+      <PathSizes1 Value="1.04" RawValue="A4703D0AD7A3F03F" />
+      <PathSizes2 Value="1.56" RawValue="F6285C8FC2F5F83F" />
+      <PathSizes3 Value="2.08" RawValue="A4703D0AD7A30040" />
+      <PathSizes4 Value="0.74" RawValue="AE47E17A14AEE73F" />
+      <PathSizes5 Value="1.04" RawValue="A4703D0AD7A3F03F" />
+      <PathSizes6 Value="1.04" RawValue="A4703D0AD7A3F03F" />
+      <PathSizes7 Value="1.04" RawValue="A4703D0AD7A3F03F" />
+    </PathSizes>
+    <PCBGroup>
+      <PCBGroup0 Value="0" />
+      <PCBGroup1 Value="0" />
+      <PCBGroup2 Value="0" />
+      <PCBGroup3 Value="0" />
+      <PCBGroup4 Value="0" />
+      <PCBGroup5 Value="0" />
+      <PCBGroup6 Value="0" />
+      <PCBGroup7 Value="0" />
+    </PCBGroup>
+  </PCB>
+</Drawing>

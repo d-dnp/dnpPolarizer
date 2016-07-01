@@ -1,0 +1,23 @@
+* Configuration.
+
+We use three AB sensors with 100 Ohm resistance at room temperature. They are wired with a 0.2  mm diameter copper cable.
+
+The pin numbering is as follows (the first 4 pins drive current through the resistors.
+
+| Pin | What                           | Color in Cable Assembly |
+|-----+--------------------------------+-------------------------|
+|   1 | Top AB high side               |                         |
+|   2 | Top AB low / Centre AB high    |                         |
+|   3 | Centre AB low / Bottom AB high |                         |
+|   4 | Bottm AB low                   |                         |
+|   5 | AD Top + (parallel to wire 1)  |                         |
+|   6 | AD TOP -                       |                         |
+|   7 | AD centre +                    |                         |
+|   8 | AD centre -                    | red-black               |
+|   9 | AD bottom +                    | green-black             |
+|  10 | AD bottom -                    | orange-black            |
+|  12 | NC                             | blue-black              |
+|  14 | Cernox current +               |                         |
+|  15 | Cernox current -               |                         |
+|  16 | Cernox AD+                     |                         |
+|  17 | Cernox AD-                     |                         |

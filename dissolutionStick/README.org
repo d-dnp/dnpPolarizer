@@ -1,0 +1,79 @@
+#+Title: Dissolution Stick + Box Documentation
+This document contains documentation on the wiring / part nos. for the dissolution stick and its controller box.
+
+The controller also drives the pilot valves via 24V lines. A relay module is driven by the Arduino's digital outputs and connects the 24V output of the power supply to the various pins of a DB25 connector on the front panel. 
+* Content
+
+** Dissolution Stick
+*** Parts
+| Part                           |   Order Code | Company  |
+|--------------------------------+--------------+----------+
+| Pressure Transducer            |     457-3170 | RS       |
+| Pt-100                         |     237-1607 | RS       |
+| LED green                      |     234-9458 | RS       |
+| LED red                        |     234-9420 | RS       |
+| Push button with LED           |     729-5429 | RS       |
+| Aluminium plates               |      187-328 | RS       |
+| M3 Hex Screws                  |     660-4636 | RS       |
+| Fischer Connector on Cable     |     726-3337 | RS       |
+| Fischer Connector Sleeve       |     1031.855 | RS       |
+| Cable: Farnell                 |     119-0173 | Farnelll |
+| Manual Valve                   |      SS-4P4T | Swagelok |
+| Activated Valve                | 6LVV-DPS6M-C | Swagelok |
+| 1/8" Replacement Front Ferrule |      A-203-1 | Swagelok |
+| 1/8" Replacement Back Ferrule  |      A-204-1 | Swagelok |
+| 1/8" Nylon Nut                 |     NY-202-1 | Swagelok |
+| Union cross                    |              | Swagelok |
+| Port Connector                 |              | Swagelok |
+
+*** Wiring / Info
+
+** Dissolution Box Controller
+*** Dissolution Control
+**** Parts
+| Part                        | Order Code | Company            |
+|-----------------------------+------------+--------------------|
+| Rack case 3U                |   665-7637 | RS                 |
+| Rack case vented cover      |   665-7652 | RS                 |
+| TXL Universal Power Supply  |   418-2308 | RS                 |
+| Power switch, fused 4A      |   456-0988 | RS                 |
+| Arduino Mega                |            |                    |
+| Arduino Ethernet            |   769-7415 | RS                 |
+| (Mounting Plate)            |   349-7895 |                    |
+|                             |            |                    |
+| RJ45 Connector              |   706-0194 | RS                 |
+| 5V Solid State Relay module |            | SainSmart / Amazon |
+| Transformer Toroidal        |   223-8128 | RS                 |
+**** Rack Parts
+| Castors for universal rack |   433-7299 |   62.25 |
+| 6 way power block          |   686-6165 |  34.704 |
+|----------------------------+------------+---------|
+
+**** Wiring / Info
+Use C-u <TAB> to expand content
+| Colour | Terminal 1         | Terminal 2            | Pin No. on Fischer Connector |
+|        |                    |                       |   <5> |
+|--------+--------------------+-----------------------+-------|
+| Blue   | GND                | GND                   |     1 |
+| Green  | 110V AC            | Mineral band heater   |     2 |
+| Red    | 110V AC            | Mineral band heater   |     3 |
+| Grey   | to GND via A2,100R | Pressure Transducer - |     4 |
+| Yellow | EARTH              | EARTH                 |     5 |
+| White  | +24V               | Pressure Transducer + |     6 |
+| Black  | EARTH              | EARTH                 |     7 |
+| Brown  | to 5V via A1,470R  | PT100                 |     8 |
+| Violet | to 5V via A0,2K2   | Push button           |     9 |
+| Orange | to PIN 10 via 470R | Push button LED       |    10 |
+| Rose   | to PIN 11 via 470R | Red LED               |    11 |
+| Cyan   | to PIN 12 via 470R | Green LED             |    12 |
+| -      | PIN 13             | TTL In, 10K to GND    |       |
+| -      | PIN A4             | TTL OUTB              |       |
+| -      | PIN A5             | TTL OUTA              |       |
+
+*** Valve Control
+**** Parts 
+| Part                        | Order Code | Company            |
+|-----------------------------+------------+--------------------|
+| Sain Smart 5V Relais Module |            | SainSmart / Amazon |
+|                             |            |                    |
+**** Wiring / Info
