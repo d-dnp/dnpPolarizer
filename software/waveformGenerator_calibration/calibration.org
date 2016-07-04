@@ -1,0 +1,13 @@
+#+BEGIN_SRC python no-theme-inherit :results ouput :exports both
+import numpy as np
+print "Hello"
+#+END_SRC python
+
+#+RESULTS:
+
+
+
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
