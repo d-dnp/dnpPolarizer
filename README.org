@@ -7,11 +7,6 @@ Clinical and pre-clinical systems are available commercially, but are costly and
 
 This repository contains the design of the dissolution-DNP system at Southampton University. We hope that it will become a valuable ressource for people working in the field and would be grateful for external contributions / modifications.
 
-The use of the Spectrostat Flow cryostat currently limits the temperature to above 2.1 K in continuous mode and 1.8 K in single-shot mode (hold-time approximately 45 mins). 
-
-Using Trityl and pyruvic acid, a polarization level of 18 % was achieved.
-
-Using TEMPOL and H2O/d-glycerol, a polarization level of 12 % was achieved on sodium acetate.
 
 * The setup at Southampton
 
@@ -25,6 +20,13 @@ The key components that we are using are as follows:
 | Roots Pump, RUVAC WAU251  | Oerlikon           | 20 k                                |
 | 188 GHz Microwave Source  | ELVA               | 20 k                                |
 | Mini NMR Spectrometer     | Magritek           | 20 k                                |
+
+The use of the Spectrostat Flow cryostat currently limits the temperature to above 2.1 K in continuous mode and 1.8 K in single-shot mode (hold-time approximately 45 mins). 
+
+Using Trityl and pyruvic acid, a polarization level of 18 % was achieved.
+
+Using TEMPOL and H2O/d-glycerol, a polarization level of 12 % was achieved on sodium acetate.
+
 
 ** Custom-built components
 
