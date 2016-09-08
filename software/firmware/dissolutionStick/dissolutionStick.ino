@@ -32,10 +32,10 @@ void setup()
  
 
   
-  lcd.begin(16,2);
-  lcd.setBacklightPin(BACKLIGHT_PIN,POSITIVE);
-  lcd.setBacklight(1);
-  lcd.backlight();
+  //lcd.begin(16,2);
+  //lcd.setBacklightPin(BACKLIGHT_PIN,POSITIVE);
+  //lcd.setBacklight(1);
+  //lcd.backlight();
   
   if (DEBUG == true) {
     Serial.println("Setup complete");
@@ -45,10 +45,10 @@ void setup()
 void dissolve() {
   //lcd.print("DISSOLVE");
   digitalWrite(valve4, HIGH);
-  delay(800);
+  delay(1200);
   digitalWrite(valve1, HIGH);
   //lcd.print("DONE");
-  for (int thisCount = 0; thisCount <= 10; thisCount++) {
+  for (int thisCount = 0; thisCount <= 12; thisCount++) {
      digitalWrite(ledRed, HIGH);
      digitalWrite(ledGreen, LOW);
     delay(100); 
@@ -58,12 +58,16 @@ void dissolve() {
   }
  delay(500);
  digitalWrite(valve4, LOW);
+ delay(1);
  digitalWrite(valve1, LOW);
+ delay(1);
  digitalWrite(valve2, LOW);
  //delay(800);
  //digitalWrite(ttlOUTA, HIGH);
  //delay(1000);
  //digitalWrite(ttlOUTA, LOW);
+ tSet = 0;
+ pSet = 0;
 }
 
 

@@ -21,7 +21,12 @@ class microWaveSource(object):
         out = ""
         while True:
             out += str(self.ser.read(1))
-            if out[-1] == "#": return out
+            if out != "":
+               while out[-1] != "#":
+                     out += str(self.ser.read(1))
+               return out
+            else:
+               return ""
 
     def dafOn(self):
         """Use this to switch frequency stabilization mode off, i.e. direct frequency control."""
@@ -42,24 +47,31 @@ class microWaveSource(object):
             
         
     def switchOn(self):
-        time.sleep(0.5)
+        time.sleep(0.1)
         self.ser.write("@U27!on#")
-        time.sleep(0.5)
+        time.sleep(0.1)
         ans = self.readline()
-        if ans[-3:-1] == "on":
-            self.isOn = True
-            print "Microwave on"
-        else:
-            print "MICROWAVE NOT ON."
-            
-    def switchOff(self): 
+        while ans[-3:-1] != 'on':
+            self.ser.write("@U27!on#")
+            time.sleep(0.1)
+            ans = self.readline()
+            print "openning Microwave"
+
+        print "Microwave on"
+        
+                    
+    def switchOff(self):
+        time.sleep(0.1)
         self.ser.write("@U27!off#")
-        #time.sleep(0.001)
+        time.sleep(0.1)
         ans = self.readline()
-        if ans[-4:-1] == "off":
-            self.isOn = False
-        else:
-            print "MICROWAVE NOT OFF."
+        while ans[-4:-1] != "off":
+            self.ser.write("@U27!off#")
+            time.sleep(0.1)
+            ans = self.readline()
+            print "closing Microwave"
+
+        print "Microwave off"
 
     def setFrequency(self, frequency):
         """Set the frequency of the source.

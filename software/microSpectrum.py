@@ -67,20 +67,64 @@ def recordMicrowavePowerDependence(micro, keith, powerRange,  duration = 75):
 
 def invFrequencyChange(micro, keith,f1, f2, duration = 75, jumps = 60):
     
-    keith.prepareTTL()
+    "keith.prepareTTL()"
+    micro.setPower(30)
+    "micro.switchOn()"
     for l in range(0, jumps):
         print "N: ", l
-        time.sleep(1)
+        time.sleep(0.5)
         micro.setFrequency(f1)
+        time.sleep(0.5)
         print "f: ", f1
+        time.sleep(1)
+        micro.switchOn()
+        time.sleep(1)
         time.sleep(duration)
+        time.sleep(1)
+        micro.switchOff()
+        time.sleep(1)
         keith.pulse()
         time.sleep(1)
-        #keith.pulse() small flip angle pulse
         micro.setFrequency(f2)
+        time.sleep(1)
         print "f: ", f2
+        time.sleep(1)
+        micro.switchOn()
+        time.sleep(1)
         time.sleep(duration)
+        time.sleep(1)
+        micro.switchOff()
+        time.sleep(1)
         keith.pulse()
-       
+        
+    micro.switchOff()
 
+def invSignal2D(micro, keith,f1, duration = 1):
+    "be sure keith is ready"
+    
+    micro.setFrequency(f1) 
+    micro.setPower(30)     
+    micro.switchOn()       
+    keith.pulse()
+    time.sleep(214)         
+    keith.pulse()
+    time.sleep(10)        
+    micro.switchOff()      
+    time.sleep(duration)   
+    keith.pulse()          
 
+def nutation(micro, keith, f, duration, td1):
+    """A routine to switch the microwave off during saturation and pulse, cf. one of the papers by Hovav."""
+    micro.setFrequency(f)
+    micro.switchOn()
+    keith.prepareTTL()
+    
+    for k in range(td1):
+        micro.switchOff()
+        keith.pulse()
+        time.sleep(10)
+        micro.switchOn()
+        time.sleep(duration - 30)
+        micro.switchOff()
+        time.sleep(duration - 30 - 10)
+        

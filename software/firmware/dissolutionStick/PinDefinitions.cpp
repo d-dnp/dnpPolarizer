@@ -18,7 +18,7 @@ void PinDefinitions::configurePins() {
   digitalWrite(valve1, HIGH);
 
   pinMode(valve2, OUTPUT);
-  digitalWrite(valve2, HIGH);
+  digitalWrite(valve2, LOW);
   
   pinMode(valve3, OUTPUT);
   digitalWrite(valve3, LOW);
