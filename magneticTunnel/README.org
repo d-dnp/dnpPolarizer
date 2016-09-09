@@ -2,7 +2,7 @@
 
 ** Why 
  
-Dissolution-dynamic nuclear polarization (D-DNP) experiments require the use of radical which, when the sample is shuttle through a region of low magnetic field a detection magnet, are efficient in driving longitudinal relaxation of the hyperpolarized substance of interest. A magnetic tunnel has therefor been constructed to provide a high magnetic field region between polarizer and detection magnet to minimise the effect of longitudinal relaxation from dissolved radicals.
+Dissolution-dynamic nuclear polarization (D-DNP) experiments require the use of radical which, when the sample is shuttle through a region of low magnetic field to a detection magnet, are efficient in driving longitudinal relaxation of the hyperpolarized substance of interest. A magnetic tunnel has therefor been constructed to provide a high magnetic field region between polarizer and detection magnet to minimise the effect of longitudinal relaxation from dissolved radicals.
 
 ** Specs 
 
