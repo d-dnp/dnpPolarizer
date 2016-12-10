@@ -10,7 +10,7 @@ class microWaveSource(object):
 
         - port: Number of the port, e.g., 2 for COM3
         - type of the source: Currently only 188 is supported."""
-        self.ser = serial.Serial(port = port, baudrate = 115200, timeout = 0.02)
+        self.ser = serial.Serial(port = 'COM20', baudrate = 115200, timeout = 0.02)
         self.type = type
         self.frequency = 0
         self.power = 0

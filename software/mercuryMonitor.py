@@ -8,6 +8,7 @@ sys.path.append("c:/Users/benno/Dropbox/Hardware/mercuryITC")
 import mercuryITC
 
 tC = mercuryITC.temperatureControllerEthernet()
+#tC = mercuryITC.temperatureController(2)
 
 temp = tC.getSignal("mb1", "TEMP")
 print "Temp: ", temp

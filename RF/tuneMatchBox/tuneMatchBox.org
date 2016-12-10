@@ -1,0 +1,14 @@
+* Materials
+** Jennings Capacitors
+2 x CHV1N-45-0105, 1.5 - 4.5 pF
+[[./datasheets/45-260pF-Variable-and-Fix-Vacuum.pdf]]
+
+*** Thread at Shaft: 3/8 32 UNEF
+Order code for nut at Farnell: 1202035 
+
+
+*** Thread at Top: 
+1/4 28 UNF Tap: RS: 241-5117
+Also fits 1/4 28 fitting for PTFE tubing
+
+
